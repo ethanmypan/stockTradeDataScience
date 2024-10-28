@@ -60,7 +60,7 @@ class stock:
         plt.title(f"from{start} to {end}", fontsize=12)
         plt.show()
 def main():
-    apiKey = open('/Users/ethanmypan/stockTrade/notApiKey.txt').read().strip()
+    apiKey = open('YourApiKeyPath').read().strip()
     test = stock(symbol='AAPL', key= apiKey)
     #print(test.data)
    # test.plotReturnDist()
