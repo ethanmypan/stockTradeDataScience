@@ -33,28 +33,3 @@ bash
 Copy code
 python3 app.py
 This will begin pulling stock data and running the analysis.
-
-Usage
-Volatility Plot: Generate a scatter plot to visualize stock volatility and return magnitudes.
-Performance Graph: Create performance visualizations for multiple stocks.
-Stock Screener: Identify stocks trading near their 52-week highs.
-Correlation Plot: Visualize the correlation between the closing prices of various stocks.
-Example
-Here is a sample of how to retrieve stock data and generate some basic analysis:
-
-python
-Copy code
-# Example usage to retrieve and analyze stock data
-apiKey = 'your_api_key_here'
-tickers = ['AAPL', 'GOOG', 'AMZN']
-returns, current_returns, pct_change = getReturnData(*tickers, key=apiKey)
-
-# Plot performance graph for a folder of stock data
-performanceGraph('data_files')
-Functions
-getStockData: Retrieves stock data for a given stock exchange.
-getData: Pulls stock data for specific tickers and saves them as CSV files.
-getCLP: Retrieves closing prices from CSV files and concatenates them.
-performanceGraph: Visualizes stock performance by plotting the percentage change in stock prices.
-getSP500: Retrieves a list of S&P 500 stocks based on a specific sector.
-getReturnData: Calculates returns, percentage changes, and exports them to Excel.
