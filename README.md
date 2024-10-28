@@ -10,6 +10,8 @@ This project is designed to retrieve and analyze historical stock data using the
 - **Correlation Analysis**: Analyze and visualize correlations between multiple stock closing prices.
 - **Stock Screener**: Screen stocks based on their 52-week highs and identify top performers.
 
+## Credit
+https://youtu.be/bKUZrBAzqJs?si=GDHAN4_DTMtiSXVa1
 ## Requirements
 
 Ensure you have the following Python libraries installed:
